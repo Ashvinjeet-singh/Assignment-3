@@ -28,9 +28,24 @@ html
     border-right: 15px solid #f0ad4e;
 }
 
-#About 
+.new
 {
     background-image: url('https://images.pexels.com/photos/2908975/pexels-photo-2908975.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.new1
+{
+    background-image: url('https://images.pexels.com/photos/966058/pexels-photo-966058.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
 
     height: 100%;
     display: flex;
