@@ -1,7 +1,6 @@
 body
 {
     font-family: 'Bebas Neue', cursive;
-    background-image: url('C:/Users/ashvinjeet_singh/Downloads/person-tying-lace-of-shoes-1040427.jpg');
 }
 
 html 
@@ -11,7 +10,19 @@ html
 
 .qwe
 {
-    background-image: url(https://images.pexels.com/photos/1261005/pexels-photo-1261005.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+   
+}
+
+.asd
+{
+    background-image: url('');
+
+    width: 100%;
+}
+
+.vl
+{
+    border-right: 15px solid #f0ad4e;
 }
 
 #About 
@@ -23,7 +34,6 @@ html
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
