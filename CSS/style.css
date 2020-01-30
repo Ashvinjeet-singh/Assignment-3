@@ -11,24 +11,13 @@ html
     scroll-behavior: smooth;
 }
 
-.er
-{
-   color: azure;
-}
-
-.asd
-{
-    background-image: url('');
-
-    width: 100%;
-}
 
 .vl
 {
     border-right: 15px solid #f0ad4e;
 }
 
-.new
+.paraabout
 {
     background-image: url('https://images.pexels.com/photos/2908975/pexels-photo-2908975.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
 
@@ -43,7 +32,7 @@ html
     background-size: cover;
 }
 
-.new1
+.parablog
 {
     background-image: url('https://images.pexels.com/photos/966058/pexels-photo-966058.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
 
