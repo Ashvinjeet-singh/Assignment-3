@@ -12,13 +12,14 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./CSS/style.css">
 </head>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-inverse navbar-light " style="justify-content:space-between;">
         <a href="" class="navbar-brand">
-            <img src="./Images/logo.png" alt="" style="width:60px;">
+            <img src="./Images/logo.png" id="home" alt="" style="width:60px;">
         </a>
 
         <button class="btn btn-light navbar-toggler" type="button" data-toggle="collapse" 
@@ -32,7 +33,7 @@
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#" style="font-size: 20px; font-weight: bold;">Home</a>
+                    <a class="nav-link" href="#home" style="font-size: 20px; font-weight: bold;">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#About" style="font-size: 20px; font-weight: bold;">About</a>
@@ -44,7 +45,7 @@
                     <a class="nav-link" href="#blog" style="font-size: 20px; font-weight: bold;">blog</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#contact" style="font-size: 20px; font-weight: bold;">contact</a>
+                    <a class="nav-link" href="#" style="font-size: 20px; font-weight: bold;" data-toggle="modal" data-target="#myModal">contact</a>
                 </li>
             </ul>
         </div>
@@ -97,8 +98,8 @@
     
     <div class="container asd mt-5 pt-4" >
         <div class="row justify-content-between mt-3">
-            <div class="col-3 mt-2" style="background-color: black; width:680px; text-align: left;">
-                <h2 class="display-4 font-weight-light text-warning" style="">Our Team of <h1 style="color: red; outline: solid#f0ad4e 5px; width: 270px; text-align: center;" class="display-1 font-weight-bold">Experts</h1></h2>
+            <div class="col-2 mt-2" style="width:680px; text-align: left;" >
+                <h2 class="display-4 font-weight-light text-dark text-center bg-warning" style=" ">Our Team of <h1 style="  background-color: rgba(0,0,0, 0.8); width: 270px; text-align: center;  " class="display-1 font-weight-bold text-warning">Experts</h1></h2>
             </div>
             <div class="col-3">
                 <div class="card" style="width:14rem  ">
@@ -296,8 +297,8 @@
             </div>
         </div>
 
-         <!-- row 4 -->
-         <div class="row mt-4">
+        <!-- row 4 -->
+        <div class="row mt-4">
             <div class="col-3 text-center">
                 <img src="./Images/icons brands/phillip plein.png" alt="">
             </div>
@@ -313,8 +314,8 @@
             </div>
         </div>
 
-         <!-- row 5 -->
-         <div class="row mt-2">
+        <!-- row 5 -->
+        <div class="row mt-2">
             <div class="col-3 text-center">
                 <img src="./Images/icons brands/new balance.png" alt="">
             </div>
@@ -332,7 +333,7 @@
     </div>
 </section>
 
-<section>
+<section class="mt-5">
     <div class="container">
         <iframe width="100%"
             src="https://youtu.be/C4Mk6TmUrdg">
@@ -349,10 +350,10 @@
                 <h6>Check out our lastest news </h6>
             </div>
         </div>
-        <div class="row mt-4 justify-content-between">
+        <div class="row mt-3 justify-content-between">
             <div class="col-3 ">
                 <img src="./Images/holy-sneakers.png" alt="">
-                <h2 class=" mt-2 ml"><a href="#">Nike launches a 3000$ Sneakers</a></h2>
+                <h2 class=" mt-2 ml"><a href="#">Nike launches a 3000$ Sneaker</a></h2>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias dolore iste autem amet ea deleniti tempore, consectetur dicta dignissimos sed minus voluptatibus? Aut blanditiis consectetur odit, laboriosam maxime beatae tempore.</p>
             </div>
             <div class="col-3 ">
@@ -360,7 +361,7 @@
                 <h2 class=" mt-2"><a href="#">Hypebeast Collection 2020</a></h2>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias dolore iste autem amet ea deleniti tempore, consectetur dicta dignissimos sed minus voluptatibus? Aut blanditiis consectetur odit, laboriosam maxime beatae tempore.</p>
             </div>
-            <div class="col-3 ">
+            <div class="col-4 ">
                 <img src="./Images/showdown.jpg" alt="">
                 <h2 class=" mt-2"><a href="#">Ultraboost vs react
                     (Ultimate showdown)
@@ -371,15 +372,70 @@
     </div>
 </section>
 
-<footer>
-    <div class="container-fluid" style="background-color: black;">
-        <div class="row">
-            <div class="col">
-                <img src="./Images/logo-inverted.png" alt="">
+<footer style="background-color: black;">
+    <div class="container" style="background-color: black;">
+        <div class="row justify-content-between">
+            <div class="col-2 mt-2 text-left">
+                <img src="./Images/logo-inverted.png" alt="logo-inverted">
+                <p class="text-white">Copyright &copy;</p>
+            </div>
+            <div class="col-5 my-4 text-center">
+                <a href="#home" class="pr-2 text-white">Home</a>
+                <a href="#About" class="pr-2 text-white">About</a>
+                <a href="#collection" class="pr-2 text-white">Collection</a>
+                <a href="#blog" class="pr-2 text-white">Blog</a>
+                <a href="#Contact" class="pr-2 text-white" data-toggle="modal" data-target="#myModal">Contact</a>
+            </div>
+            <div class="text-right col-5 my-3">
+                <a href="#" ><i class="fa fa-facebook-square  pr-2 text-white" style="font-size:36px"></i></a>
+                <a href="#" ><i class="fa fa-instagram pr-2 text-white" style="font-size:36px"></i></a>
+                <a href="#" ><i class="fa fa-twitter-square  pr-2 text-white" style="font-size:36px"></i></a>
+                <a href="#" ><i class="fa fa-snapchat-square pr-2 text-white" style="font-size:36px"></i></a>
+                
+                
             </div>
         </div>
     </div>
 </footer>
 
+<!-- modal working -->
+<div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h4 class="modal-title">Contact Form</h4>
+            </div>
+            <div class="modal-body">
+                <form method="post">
+                    <h3>Drop Us a Message</h3>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>

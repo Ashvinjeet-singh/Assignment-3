@@ -1,6 +1,9 @@
 body
 {
     font-family: 'Bebas Neue', cursive;
+    margin: 0px;
+    padding: 0px;
+    overflow-x:hidden
 }
 
 html 
@@ -8,9 +11,9 @@ html
     scroll-behavior: smooth;
 }
 
-.qwe
+.er
 {
-   
+   color: azure;
 }
 
 .asd
