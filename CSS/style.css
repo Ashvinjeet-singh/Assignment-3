@@ -54,3 +54,38 @@ html
         display: none;
     }
 }
+
+@media screen and (max-width:768px)
+{
+    .btsr .btsc1
+    {
+        order: 2;
+    }
+}
+
+@media screen and (max-width:768px)
+{
+    .btsr .btsc2
+    {
+        order: 1;
+    }
+}
+
+
+.carousel-item.active,.carousel-item-next,.carousel-item-prev
+{
+    display: block;
+}
+
+@media screen and (max-width:768px)
+{
+    .lr
+    {
+        display: none;
+    }
+}
+
+
+
+
+   
