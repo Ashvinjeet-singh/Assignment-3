@@ -85,6 +85,30 @@ html
     }
 }
 
+.cap1
+{
+    bottom: 5rem;
+    right: 80rem;
+    z-index: 10;
+    color: black;
+    
+}
+
+.cap3
+{
+    bottom: 10rem;
+    right: 80rem;
+    z-index: 10;
+    color: black;
+}
+
+.cap2
+{
+    bottom: 2rem;
+    right: 100rem;
+    z-index: 10;
+    color: black;
+}
 
 
 
