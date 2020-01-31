@@ -163,7 +163,7 @@ html
 @media screen and (max-width:768px)
 {
     .cap3{
-        width: 20vw!important;
+        width: 20vw!importantl;
         position: static;
     }
 }
