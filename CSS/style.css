@@ -9,7 +9,7 @@ body
 
 h1
 {
-    font-size: 2em+8px!important;
+    font-size: 2em+4px!important;
 }
 h2{
     font-size:2em!important
@@ -32,8 +32,9 @@ h5
 
 h6
 {
-    font-size: 1em;
+    font-size: 1em!important;
 }
+
 
 html 
 {
@@ -163,8 +164,8 @@ html
 @media screen and (max-width:768px)
 {
     .cap3{
-        width: 20vw!importantl;
-        position: static;
+        width:20vw!important;
+        position:static;
     }
 }
 
