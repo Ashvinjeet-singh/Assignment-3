@@ -7,7 +7,33 @@ body
     
 }
 
+h1
+{
+    font-size: 2em+8px!important;
+}
+h2{
+    font-size:2em!important
+}
 
+h3
+{
+    font-size: 2em-4px!important;
+}
+
+h4
+{
+    font-size: 1em+8px!important;
+}
+
+h5
+{
+    font-size:1em+4px!important;
+}
+
+h6
+{
+    font-size: 1em;
+}
 
 html 
 {
@@ -118,5 +144,28 @@ html
     box-shadow: 1px 1px #ccc2c2;
 }
 
+
+@media screen and (max-width:768px)
+{
+    .cap1{
+        width: 100%;
+        position: static;
+    }
+}
+
+@media screen and (max-width:768px)
+{
+    .cap2{
+        width: 100%;
+        position: static;
+    }
+}
+@media screen and (max-width:768px)
+{
+    .cap3{
+        width: 20vw!important;
+        position: static;
+    }
+}
 
    
