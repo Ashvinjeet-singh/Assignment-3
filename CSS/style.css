@@ -103,14 +103,10 @@ html
 }
 
 
-.carousel-item.active,.carousel-item-next,.carousel-item-prev
-{
-    display: block;
-}
 
 @media screen and (max-width:768px)
 {
-    .lr
+    .backtotoplink
     {
         display: none;
     }
@@ -148,7 +144,7 @@ html
 } 
 
 
-.vd tr td
+.tableclass tr td
 {
     border: 1px solid black;
 }
@@ -184,13 +180,13 @@ html
 
 @media screen and (max-width:730px)
 {
-    .gh
+    .brandsec
     {
         display: none;
     }
 }
 
-.pd
+.brandpadding
 {
-    padding: 2px;
+    padding: 7px;
 }
