@@ -4,10 +4,11 @@ body
     margin: 0px;
     padding: 0px;
     overflow-x:hidden;
+    font-size: 12px;
     
 }
 
-h1
+/* h1
 {
     font-size: 2em+4px!important;
 }
@@ -34,7 +35,7 @@ h6
 {
     font-size: 1em!important;
 }
-
+ */
 
 html 
 {
@@ -142,9 +143,15 @@ html
 
 .jk
 {
-    box-shadow: 1px 1px #ccc2c2;
-}
+    margin:0px;
+    padding:0px
+} 
 
+
+.vd tr td
+{
+    border: 1px solid black;
+}
 
 @media screen and (max-width:768px)
 {
@@ -169,4 +176,21 @@ html
     }
 }
 
-   
+.main_navv
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width:730px)
+{
+    .gh
+    {
+        display: none;
+    }
+}
+
+.pd
+{
+    padding: 2px;
+}

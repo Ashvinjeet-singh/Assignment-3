@@ -22,11 +22,12 @@
 </head>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-inverse navbar-light navbar-fixed-top  " style="justify-content:space-between;">
+    <!-- Header Bar -->
+    <nav class="navbar navbar-expand-md navbar-inverse navbar-light navbar-fixed-top  justify-content-between" >
         <a href="" class="navbar-brand">
             <img src="./Images/logo.png" id="home" alt="" style="width:60px;">
         </a>
-
+    
         <button class="btn btn-light navbar-toggler" type="button" data-toggle="collapse" 
             data-target="#collapsibleNavbar" aria-controls="navbarSupportedContent"
             aria-expanded="true" aria-label="Toggle navigation">
@@ -34,23 +35,24 @@
             <i style="font-size:40px" class="fa" style="color: red;">&#xf0c9;</i></i>
         </span>
         </button>
-
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav">
+    
+        <div class="collapse navbar-collapse  main_navv " id="collapsibleNavbar">
+            
+            <ul class="navbar-nav mr-5">
                 <li class="nav-item">
-                    <a class="nav-link" href="#home" style="font-size: 20px; font-weight: bold;">Home</a>
+                    <a class="nav-link" href="#home" style="font-size: 2rem; font-weight: bold;">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#About" style="font-size: 20px; font-weight: bold;">About</a>
+                    <a class="nav-link" href="#About" style="font-size: 2rem; font-weight: bold;">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#collection" style="font-size: 20px; font-weight: bold;">Collection</a>
+                    <a class="nav-link" href="#collection" style="font-size: 2rem; font-weight: bold;">Collection</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#blog" style="font-size: 20px; font-weight: bold;">blog</a>
+                    <a class="nav-link" href="#blog" style="font-size: 2rem; font-weight: bold;">blog</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" style="font-size: 20px; font-weight: bold;" data-toggle="modal" data-target="#myModal">contact</a>
+                    <a class="nav-link" href="#" style="font-size: 2rem; font-weight: bold;" data-toggle="modal" data-target="#myModal">contact</a>
                 </li>
             </ul>
         </div>
@@ -61,405 +63,399 @@
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner" role="listbox">
                     <div class="carousel-item  er">
-                        <div class=" min-vh-100">
-                            <img src="./Images/close-up.jpg" alt="" style="width: 100vw; height:100vh;" class="img-fluid">
+                        <div class=" d-flex align-items-center justify-content-center min-vh-100">
+                            <img src="./Images/close-up.jpg" alt="" style="width: 100%; height:auto;" class="img-fluid">
                         </div>
                         <div class="container wow zoomIn ">
                             <div class="carousel-caption cap1 text-center w-25 ">
                                 <h1 class="display-3 font-weight-bold">A <p
-                                    class="text-danger">Moment</p> of Your <p class="text-warning">Style</p>
-                                    </h1>
+                                class="text-danger">Moment</p> of Your <p class="text-warning">Style</p>
+                                </h1>
                             </div>    
                         </div>                        
                     </div>
-                    
+                
                     <div class="carousel-item active">
-                        <div class="d-flex align-items-center justify-content-center min-vh-100">
-                            <img src="./Images/close-up-of-a-woman-s-sport-shoes-6346.jpg "alt="" style="width: 100vw; height:100vh;" class="img-fluid">
+                        <div class="d-flex align-items-center justify-content-center min-vh-100 ">
+                            <img src="./Images/close-up-of-a-woman-s-sport-shoes-6346.jpg "alt="" style="width: 100%; height:auto;" class="img-fluid yu">
                         </div>
 
                         <div class="container " >
                             <div class="carousel-caption cap2 text-center wow fadeInRight w-70 display-2">moVE yOU  <p class="text-info"> moRE..</p> </h1>
                             </div>    
                         </div> 
-                        
-                        
                     </div>
-                    <div class="carousel-item">
-                        <div class="d-flex align-items-center justify-content-center min-vh-100">
-                            <img src="./Images/white and yellow ring.jpg" alt="" style="width: 100vw; height:100vh;" class="img-fluid">
-                        </div>
-                        <div class="container " >
-                            <div class="carousel-caption cap3 text-center w-25 display-2 wow fadeInRight">Wear your  <p class="display-1 bg-warning text-danger">Best</p> </h1>
-                            </div>    
-                        </div> 
+                <div class="carousel-item">
+                    <div class="d-flex align-items-center justify-content-center min-vh-100">
+                        <img src="./Images/white and yellow ring.jpg" alt="" style="width: 100%; height:auto;" class="img-fluid">
                     </div>
+                    <div class="container " >
+                        <div class="carousel-caption cap3 text-center w-25 display-2 wow fadeInRight">Wear your  <p class="display-1 bg-warning text-danger">Best</p> </h1>
+                        </div>    
+                    </div> 
                 </div>
+            </div>
                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
                 </a>
                 <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
                 </a>
             </div>
         </div>
     </section>
 
 
-<section id="About" class="paraabout">
-    <div class="container qwe mt-5 p-5" style="background-color: rgba(255,255,255, 0.8);" >
-        
-        <h1 class="text-center display-1 font-weight-bold wow fadeInDown" style=" ">About us</h1>
-        <p class="text-center wow fadeInLeft" style="font-size: 24px; ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic reprehenderit alias labore quia nihil et placeat amet, distinctio omnis iste fugiat iusto cum odio obcaecati cumque porro, est eaque minus, deserunt necessitatibus voluptatibus non. Maiores amet sunt odit laudantium? Perspiciatis assumenda quam ducimus at possimus architecto sunt reprehenderit repellat? Architecto?</p>
+    
 
-        <p class="text-center wow fadeInRight" style="font-size: 24px; ">
+
+    <section id="About" class="paraabout">
+        <div class="container qwe mt-5 p-5" style="background-color: rgba(255,255,255, 0.8);" >
+        
+            <h1 class="text-center display-1 font-weight-bold wow fadeInDown" style=" ">About us</h1>
+            <p class="text-center wow fadeInLeft" style="font-size: 2rem; ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic reprehenderit alias labore quia nihil et placeat amet, distinctio omnis iste fugiat iusto cum odio obcaecati cumque porro, est eaque minus, deserunt necessitatibus voluptatibus non. Maiores amet sunt odit laudantium? Perspiciatis assumenda quam ducimus at possimus architecto sunt reprehenderit repellat? Architecto?</p>
+    
+            <p class="text-center wow fadeInRight" style="font-size: 2rem; ">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ducimus, facilis quia rem tempore laudantium. Explicabo necessitatibus illo vero impedit, delectus quia culpa! Rem magni tempore, placeat repellat, enim suscipit, optio est saepe natus ex ea quasi quia ullam asperiores odit beatae excepturi ad totam cupiditate. Magni adipisci necessitatibus veritatis!
-        </p>
-    </div> 
-    <!-- team members -->
-    <div class="container asd mt-5 pt-4 text-center" >
-        
-        
-        <div class="row justify-content-between text-center mt-3">
-            <div class=" col-xl-2 col-lg-7 col-md-7 mt-2 wow fadeInLeft" style="width:680px; text-align: center;" >
-                <h2 class="display-4 font-weight-light text-dark text-center bg-warning" style=" ">Our Team of <h1 style="  background-color: rgba(0,0,0, 0.8); width: 270px; text-align: center;  " class="display-1 font-weight-bold text-warning">Experts</h1></h2>
-            </div>
-            <div class="d-flex col-xl-3 col-lg-6 col-md-6 mt-3 justify-content-center wow zoomIn">
-                <div class="card text-center" style="width:14rem  ">
-                    <img class="card-img-top" src="./Images/eve.jfif" alt="Card image cap" style="">
+            </p>
+        </div> 
+    <!--team member-->
+        <div class="container asd mt-5 pt-4 text-center" >
+            <div class="row justify-content-between text-center mt-3">
+                <div class=" col-xl-2 col-lg-7 col-md-7 mt-2 wow fadeInLeft" style="width:680px; text-align: center;" >
+                    <h2 class="display-4 font-weight-light text-dark text-center bg-warning" style=" ">Our Team of <h1 style="  background-color: rgba(0,0,0, 0.8); width: 270px; text-align: center;  " class="display-1 font-weight-bold text-warning">Experts</h1></h2>
+                </div>
+                <div class="d-flex col-xl-3 col-lg-6 col-md-6 mt-3 justify-content-center wow zoomIn">
+                    <div class="card text-center" style="width:14rem  ">
+                        <img class="card-img-top" src="./Images/eve.jfif" alt="Card image cap" style="">
                     
-                    <h5 class="card-title text-center">EVE <small>(Co-founder)</small></h5>
+                        <h5 class="card-title text-center">EVE <small>(Co-founder)</small></h5>
+                    </div>
+                </div>
+                <div class=" col-xl-3 col-lg-6 col-md-6 mt-3 d-flex justify-content-center wow zoomIn">
+                    <div class="card" style="width:14rem  ">
+                        <img class="card-img-top" src="./Images/adam.jfif" alt="Card image cap" style="">
                     
+                        <h5 class="card-title text-center">ADAM <small>(Web Designer)</small></h5>
+                    </div>
                 </div>
             </div>
-            <div class=" col-xl-3 col-lg-6 col-md-6 mt-3 d-flex justify-content-center wow zoomIn">
-                <div class="card" style="width:14rem  ">
-                    <img class="card-img-top" src="./Images/adam.jfif" alt="Card image cap" style="">
+    
+            <div class="row justify-content-between mt-4 mb-5 d-flex justify-content-center wow zoomIn">
+                <div class="col-xl-2 col-lg-7">
+                </div>
+                <div class="d-flex col-xl-3 col-lg-6 col-md-6 mt-3 justify-content-center">
+                    <div class="card " style="width:14rem  ">
+                        <img class="card-img-top" src="./Images/darwin.jfif" alt="Card image cap" style="">
                     
-                    <h5 class="card-title text-center">ADAM <small>(Web Designer)</small></h5>
+                        <h5 class="card-title text-center">DARWIN <small>(Manager)</small></h5>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 col-md-6 mt-3 d-flex justify-content-center wow zoomIn">
+                    <div class="card " style="width:14rem  ">
+                        <img class="card-img-top" src="./Images/anjali.jfif" alt="Card image cap" style="">
                     
+                        <h5 class="card-title text-center">ANJALI <small>(Graphic Designer)</small></h5>
+                    </div>
                 </div>
             </div>
         </div>
-
-        <div class="row justify-content-between mt-4 mb-5 d-flex justify-content-center wow zoomIn">
-            <div class="col-xl-2 col-lg-7">
+    </section> 
+    <!-- COLLECTION SECTION -->
+    <section>
+        <div class="container mt-5 ty" id="collection" style="outline: black solid 5px;"> 
+            <div class="row">
+                
+                    <h3 class="display-2 text-center" style="width: 100%; height: auto;">
+                        Latest Collection
+                    </h3>
                 
             </div>
-            <div class="d-flex col-xl-3 col-lg-6 col-md-6 mt-3 justify-content-center">
-                <div class="card " style="width:14rem  ">
-                    <img class="card-img-top" src="./Images/darwin.jfif" alt="Card image cap" style="">
-                    
-                    <h5 class="card-title text-center">DARWIN <small>(Manager)</small></h5>
+            <!-- Nike Air Jordan x Off white -->
+            <div class="row  justify-content-center ml-4 wow fadeInLeft">
+                <div class="vl">
+                </div>
+                <div class="col-xl-5 col-lg-5 col-md-7">
+                    <img src="./Images/jordan off.jpg" alt="" style="width: 100% ;height:auto;">
+                </div>
+                <div class="col-xl-5 col-lg-5 col-md-4">
+                    <h3>Nike Air Jordan x OFFWHITE</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat a dolorum aut aperiam nostrum! Facilis, modi perspiciatis. Amet tempore blanditiis, officia maiores culpa aliquam esse. Ratione est eveniet nobis neque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus laborum ducimus odio quam sequi dolores.</p>
+                    <button class="btn btn-primary px-3 py-2 ml-3" type="button">Buy Now</button>
                 </div>
             </div>
-            <div class="col-xl-3 col-lg-6 col-md-6 mt-3 d-flex justify-content-center wow zoomIn">
-                <div class="card " style="width:14rem  ">
-                    <img class="card-img-top" src="./Images/anjali.jfif" alt="Card image cap" style="">
-                    
-                    <h5 class="card-title text-center">ANJALI <small>(Graphic Designer)</small></h5>
-                    
-                </div>
-            </div>
-        </div>
-
-
-    </div>
-</section>  
-<!-- collection section -->
-<section>
-    <div class="container mt-5 ty mx-1" id="collection" style="outline: black solid 5px;"> 
-        <div class="row">
-            <div class="col">
-                <h1 class="display-1 text-center">
-                    Latest Collection
-                </h1>
-            </div>
-        </div>
-        <!-- Nike Air Jordan x Off white -->
-        <div class="row  justify-content-center ml-4 wow fadeInLeft">
-            <div class="vl">
-            </div>
-            <div class="col-xl-5 col-lg-5 col-md-7">
-                <img src="./Images/jordan off.jpg" alt="" class="img-fluid">
-            </div>
-            <div class="col-xl-5 col-lg-5 col-md-4">
-                <h3>Nike Air Jordan x OFFWHITE</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat a dolorum aut aperiam nostrum! Facilis, modi perspiciatis. Amet tempore blanditiis, officia maiores culpa aliquam esse. Ratione est eveniet nobis neque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus laborum ducimus odio quam sequi dolores.</p>
-                <button class="btn btn-primary px-3 py-2 ml-3" type="button">Buy Now</button>
-            </div>
-        </div>
-
-        <!-- Balenciaga Triple S -->
-        <div class="row mt-4  justify-content-center ml-4 btsr wow fadeInRight">
-            <div class="col-xl-5 col-lg-4 col-md-4   pt-5 btsc1 ">
-                <h3>
-                    Balenciaga Triple S
-                </h3>
-                <p class="mb-5">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi reprehenderit numquam consectetur perspiciatis dolores recusandae eius molestiae itaque nisi voluptatum minima natus aliquam voluptatibus dolor voluptate enim, autem dolorem quam velit. Culpa velit fuga veniam distinctio in a maxime modi, quae magni repellat rem dolorum eum sapiente iure, vitae quos.
-                </p>
-                <button class="btn btn-primary px-3 py-2 ml-3">
-                    BUY NOW
-                </button>
-            </div>
-            <div class="col-xl-5 col-lg-4 col-md-8 btsc2  ">
-                <img src="./Images/balenciaga-triple-s-main-removebg-preview.png" alt="" class="img-fluid" style="width: 100%;">
-            </div>
-            <div class="vl"></div>
-        </div>
-
-        <!-- GUCCI Flashtrek -->
-        <div class="row mt-5 mr-4 justify-content-center ml-4 wow fadeInLeft">
         
-            <div class="vl"></div>
-            <div class="col-xl-5 col-lg-5 col-md-7">
-                <img src="./Images/https___hypebeast-removebg-preview.png" alt="" class="img-fluid">
+            <!-- Balenciaga Triple S -->
+            <div class="row mt-4  justify-content-center ml-4 btsr wow fadeInRight">
+                <div class="col-xl-5 col-lg-4 col-md-4   pt-5 btsc1 ">
+                    <h3>
+                        Balenciaga Triple S
+                    </h3>
+                    <p class="mb-5">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi reprehenderit numquam consectetur perspiciatis dolores recusandae eius molestiae itaque nisi voluptatum minima natus aliquam voluptatibus dolor voluptate enim, autem dolorem quam velit. Culpa velit fuga veniam distinctio in a maxime modi, quae magni repellat rem dolorum eum sapiente iure, vitae quos.
+                    </p>
+                    <button class="btn btn-primary px-3 py-2 ml-3">
+                        BUY NOW
+                    </button>
+                </div>
+                <div class="col-xl-5 col-lg-4 col-md-8 btsc2  ">
+                    <img src="./Images/balenciaga-triple-s-main-removebg-preview.png" alt=""  style="width: 100%; height: auto;">
+                </div>
+                <div class="vl"></div>
             </div>
-            <div class="col-xl-5 col-lg-5 col-md-4  ">
-                <h3>
-                    Gucci Flashtrek
-                </h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat a dolorum aut aperiam nostrum! Facilis, modi perspiciatis. Amet tempore blanditiis, officia maiores culpa aliquam esse. Ratione est eveniet nobis neque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus dolorum repudiandae ducimus cum, similique neque?
-                </p>
-            <button class="btn btn-primary px-3 py-2 ml-3" type="button">
-                Buy Now
-            </button>
-            </div>
-        </div>
-
-        <!-- nike air jordan X Dior -->
-        <div class="row mt-4  justify-content-center ml-4 btsr wow fadeInRight">
-            <div class="col-xl-5 col-lg-4 col-md-4    pt-5  btsc1">
-                <h3>
-                    Nike Air Jordan X Dior
-                </h3>
-                <p class="mb-5">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi reprehenderit numquam consectetur perspiciatis dolores recusandae eius molestiae itaque nisi voluptatum minima natus aliquam voluptatibus dolor voluptate enim, autem dolorem quam velit. Culpa velit fuga veniam distinctio in a maxime modi, quae magni repellat rem dolorum eum sapiente iure, vitae quos.
-                </p>
-                <button class="btn btn-primary px-3 py-2 ml-3">
-                    BUY NOW
+        
+            <!-- GUCCI Flashtrek -->
+            <div class="row mt-5 mr-4 justify-content-center ml-4 wow fadeInLeft">
+            
+                <div class="vl"></div>
+                <div class="col-xl-5 col-lg-5 col-md-7">
+                    <img src="./Images/https___hypebeast-removebg-preview.png" alt="" style="width: 100%; height: auto;">
+                </div>
+                <div class="col-xl-5 col-lg-5 col-md-4  ">
+                    <h3>
+                        Gucci Flashtrek
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat a dolorum aut aperiam nostrum! Facilis, modi perspiciatis. Amet tempore blanditiis, officia maiores culpa aliquam esse. Ratione est eveniet nobis neque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus dolorum repudiandae ducimus cum, similique neque?
+                    </p>
+                <button class="btn btn-primary px-3 py-2 ml-3" type="button">
+                    Buy Now
                 </button>
+                </div>
             </div>
-            <div class="col-xl-5 col-lg-4 col-md-8  mt-4 btsc2">
-                <img src="./Images/nike_air_dior.png" alt="" class="img-fluid">
+        
+            <!-- nike air jordan X Dior -->
+            <div class="row mt-4  justify-content-center ml-4 btsr wow fadeInRight">
+                <div class="col-xl-5 col-lg-4 col-md-4    pt-5  btsc1">
+                    <h3 style="width: 100%; height: auto;">
+                        Nike Air Jordan X Dior
+                    </h3>
+                    <p class="mb-5">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi reprehenderit numquam consectetur perspiciatis dolores recusandae eius molestiae itaque nisi voluptatum minima natus aliquam voluptatibus dolor voluptate enim, autem dolorem quam velit. Culpa velit fuga veniam distinctio in a maxime modi, quae magni repellat rem dolorum eum sapiente iure, vitae quos.
+                    </p>
+                    <button class="btn btn-primary px-3 py-2 ml-3">
+                        BUY NOW
+                    </button>
+                </div>
+                <div class="col-xl-5 col-lg-4 col-md-8  mt-4 btsc2">
+                    <img src="./Images/nike_air_dior.png" alt="" style="width: 100%; height: auto;">
+                </div>
+                <div class="vl"></div>
             </div>
-            <div class="vl"></div>
+        
+            <!-- click for more btn -->
+            <div class="row justify-content-center mt-5">
+                <div class="col-6 text-center wow fadeInDown">
+                    <button class="btn btn-primary  px-4 my-3 ">
+                        <h4 class="pt-2">
+                            Click for More
+                        </h4>
+                    </button>
+                </div>
+            </div>
         </div>
+        </section>
+        
+        <!-- brands Available -->
+        <section>
+        <div class="container mt-4 gh" style="outline: chocolate dashed 3px;">
+            <div class="row justify-content-center">
+                <div class="col text-center">
+                    <h3 class="display-2 text-danger mt-4 wow zoomIn ">
+                        Brands Available
+                    </h3>
+                </div>
+            </div>
 
-        <!-- click for more btn -->
-        <div class="row justify-content-center mt-5">
-            <div class="col-6 text-center wow fadeInDown">
-                <button class="btn btn-primary  px-4 my-3 ">
-                    <h4 class="pt-2">
-                        Click for More
-                    </h4>
-                </button>
-            </div>
+            <table class="d-flex justify-content-center vd mb-3" style="width: 100%; border-collapse: collapse; ">
+                <tr >
+                    <td  class=".pd"> 
+                        <img src="./Images/icons brands/adidas_Originals-removebg-preview.png" alt="" style="width: 150px;" class="mb-2">
+                    </td >
+                    <td class=".pd">
+                        <img src="./Images/icons brands/Balenciaga.jpeg" alt="" style="width: 150px;" class="mb-2">
+                    </td>
+                    <td class=".pd">
+                        <img src="./Images/icons brands/Supreme.jpeg" alt="" style="width: 150px;" class="mb-2">
+                    </td>
+                    <td class=".pd">
+                        <img src="./Images/icons brands/bape.jpeg" alt="" style="width: 150px;" class="mb-2">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="./Images/icons brands/burberry.png" alt="" style="width: 150px;" class="mb-2">
+                    </td>
+                    <td class=".pd">
+                        <img src="./Images/icons brands/huf.png" alt="" style="width: 150px;" class="mb-2">
+                    </td>
+                    <td class=".pd">
+                        <img src="./Images/icons brands/Palace.jpeg" alt="" style="width: 150px;" class="mb-2">
+                    </td>
+                    <td>
+                        <img src="./Images/icons brands/versace.jpg" alt="" style="width: 150px;" class="mb-2">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="./Images/icons brands/northface.png" alt="" style="width: 150px;" class="mb-2">
+                    </td>
+                    <td>
+                        <img src="./Images/icons brands/puma.png" alt="" style="width: 150px;" class="mb-2">
+                    </td>
+                    <td>
+                        <img src="./Images/icons brands/nike.png" alt="" style="width: 150px;" class="mb-2">
+                    </td>
+                    <td>
+                        <img src="./Images/icons brands/reebok.png" alt="" style="width: 150px;" class="mb-2">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="./Images/icons brands/phillip plein.png" alt="" style="width: 150px;" class="mb-2">
+                    </td>
+                    <td>
+                        <img src="./Images/icons brands/Pigalle.jpeg" alt="" style="width: 150px;" class="mb-2">
+                    </td>
+                    <td>
+                        <img src="./Images/icons brands/dior.jpg" alt="" style="width: 150px;" class="mb-2">
+                    </td>
+                    <td>
+                        <img src="./Images/icons brands/gucci.jpg" alt="" style="width: 150px;" class="mb-2">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="./Images/icons brands/new balance.png" alt="" style="width: 150px;" class="mb-2">
+                    </td>
+                    <td>
+                        <img src="./Images/icons brands/prada.png" alt="" style="width: 150px;" class="mb-2">
+                    </td>
+                    <td>
+                        <img src="./Images/icons brands/jimmy choo.jpg" alt="" style="width: 150px;" class="mb-2">
+                    </td>
+                    <td>
+                        <img src="./Images/icons brands/vans.jpg" alt="" style="width: 150px;" class="mb-2">
+                    </td>
+                </tr>
+            </table> 
         </div>
-</div>
-</section>
+    </section>
 
-<!-- brands Available -->
-<section>
-    <div class="container mt-4" style="outline: chocolate dashed 3px;">
-        <div class="row justify-content-center">
-            <div class="col text-center">
-                <h3 class="display-2 text-danger mt-4 wow zoomIn ">
-                    Brands Available
-                </h3>
-            </div>
+    <section class="mt-5">
+        <div class="container">
+            <iframe width="100%" height="500px" src="https://www.youtube.com/embed/C4Mk6TmUrdg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        <!-- row 1 -->
-        <div class="row mt-4 text-center wow zoomIn px-2">
-            <div class="col-xl-3 col-lg-5 col-md-5 jk">
-                <img src="./Images/icons brands/adidas_Originals-removebg-preview.png" alt="" style="width: 150px;" class="mb-2">
-            </div>
-            <div class="col-xl-3 col-lg-5 col-md-5 jk ">
-                <img src="./Images/icons brands/Balenciaga.jpeg" alt="" style="width: 110px;" class="my-1">
-            </div>
-            <div class="col-xl-3  col-lg-5 col-md-5 jk">
-                <img src="./Images/icons brands/Supreme.jpeg" 
-                alt=""  style="width: 150px;" class="mt-2">
-            </div>
-            <div class="col-xl-3 col-lg-5 col-md-5 jk">
-                <img src="./Images/icons brands/bape.jpeg" alt="" style="width: 150px;" class="mt-2">
-            </div>
-        </div>
-        <!-- row 2 -->
-        <div class="row mt-4 text-center wow zoomIn px-2 ">
-            <div class="col-xl-3 col-lg-5 col-md-5 jk">
-                <img src="./Images/icons brands/burberry.png" alt="">
-            </div>
-            <div class=" col-xl-3 col-lg-5 col-md-5 col-sm-12 col-xs-12 mt-2 jk">
-                <img src="./Images/icons brands/huf.png" alt="">
-            </div>
-            <div class=" col-xl-3 col-lg-5 col-md-5 col-sm-12 col-xs-12 mt-2 jk">
-                <img src="./Images/icons brands/Palace.jpeg" 
-                alt="" >
-            </div>
-            <div class=" col-xl-3 col-lg-5 col-md-5 col-sm-12   jk">
-                <img src="./Images/icons brands/./versace.jpg" alt="">
-            </div>
-        </div>
-        <!-- row 3 -->
-        <div class="row mt-5 text-center wow zoomIn px-2   ">
-            <div class="col-xl-3 col-lg-5 col-md-5 jk">
-                <img src="./Images/icons brands/northface.png" alt="">
-            </div>
-            <div class=" col-xl-3 col-lg-5 col-md-5 col-sm-12 mt-2 jk">
-                <img src="./Images/icons brands/puma.png" alt="">
-            </div>
-            <div class=" col-xl-3 col-lg-5 col-md-5  col-sm-12 jk">
-                <img src="./Images/icons brands/nike.png" 
-                alt=""  style="width: 150px;" class="mt-2">
-            </div>
-            <div class=" col-xl-3 col-lg-5 col-md-5 col-sm-12 jk">
-                <img src="./Images/icons brands/reebok.png" alt="">
-            </div>
-        </div>
+    </section>
 
-        <!-- row 4 -->
-        <div class="row mt-4 text-center wow zoomIn px-2 ">
-            <div class="col-xl-3 col-lg-5 col-md-5 text-center jk">
-                <img src="./Images/icons brands/phillip plein.png" alt="" style="width: 130px;" class="mb-2">
+    <section id="blog" class="parablog mt-4">
+        <div class="container mt-5">
+            <div class="row wow zoomIn" >
+                <div class="col text-center">
+                    <h1 class="display-4 text-info"><small style="color: white;">from the </small>Blog</h1>
+                    <h6 class="text-white">Check out our lastest news </h6>
+                </div>
             </div>
-            <div class=" col-xl-3 col-lg-5 col-md-5 jk">
-                <img src="./Images/icons brands/Pigalle.jpeg" alt=""  class="my-1" style="width: 110px;">
-            </div>
-            <div class=" col-xl-3 col-lg-5 col-md-5 jk">
-                <img src="./Images/icons brands/dior.jpg" 
-                alt="" style="width: 150px;" class="mt-2">
-            </div>
-            <div class=" col-xl-3 col-lg-5 col-md-5 jk">
-                <img src="./Images/icons brands/gucci.jpg" alt="" style="width: 130px;" class="mt-2">
-            </div>
-        </div>
-
-        <!-- row 5 -->
-        <div class="row mt-2  text-center wow zoomIn px-2 ml-3">
-            <div class="  col-xl-3 col-lg-5 col-md-5 jk">
-                <img src="./Images/icons brands/new balance.png" alt="" style="width: 110px;" class="my-1">
-            </div>
-            <div class=" col-xl-3 col-lg-5 col-md-5 jk">
-                <img src="./Images/icons brands/prada.png" alt="" style="width: 110px;" class="my-1">
-            </div>
-            <div class=" col-xl-3 col-lg-5 col-md-5 mb-1 jk">
-                <img src="./Images/icons brands/jimmy choo.jpg" 
-                alt="" style="width: 130px;" class="mt-2">
-            </div>
-            <div class=" col-xl-3 col-lg-5 col-md-5 jk">
-                <img src="./Images/icons brands/vans.jpg" alt="" style="width: 120px;" class="mt-2">
+            <div class="row my-3 justify-content-between ">
+                <div class="col-lg-3 wow fadeInLeft " style="background-color: rgba(255,255,255, 0.8);">
+                    <img src="./Images/holy.jpg" alt=""class="mt-2 img-fluid" style="width: 100%;">
+                    <h2 class=" mt-2 ml"><a href="#">Nike launches a 3000$ Sneaker</a></h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias dolore iste autem amet ea deleniti tempore, consectetur dicta dignissimos sed minus voluptatibus? Aut blanditiis consectetur odit, laboriosam maxime beatae tempore.</p>
+                </div>
+                <div class="col-lg-3 wow fadeIn" style="background-color: rgba(255,255,255, 0.8);">
+                    <img src="./Images/hypebeast-collection.jpg" alt="" class="mt-2 img-fluid" style="width: 100%;">
+                    <h2 class=" mt-2" style="width: 100%;"><a href="#">Hypebeast Collection 2020</a></h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias dolore iste autem amet ea deleniti tempore, consectetur dicta dignissimos sed minus voluptatibus? Aut blanditiis consectetur odit, laboriosam maxime beatae tempore.</p>
+                </div>
+                <div class="col-lg-3 wow fadeInRight" style="background-color: rgba(255,255,255, 0.8)">
+                    <img src="./Images/showdown.jpg" alt="" class="mt-2 img-fluid" style="width: 100%;">
+                    <h2 class=" mt-2"><a href="#">Ultraboost vs react
+                        (Ultimate showdown)
+                    </a></h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias dolore iste autem amet ea deleniti tempore, consectetur dicta dignissimos sed minus voluptatibus? Aut blanditiis consectetur odit, laboriosam maxime beatae tempore.</p>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+        </section>
 
-<section class="mt-5">
-    <div class="container">
-        <iframe width="100%" height="315" src="https://www.youtube.com/embed/C4Mk6TmUrdg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-</section>
-
-
-<section id="blog" class="parablog mt-4">
-    <div class="container mt-5">
-        <div class="row wow zoomIn" >
-            <div class="col text-center">
-                <h1 class="display-4 text-info"><small style="color: white;">from the </small>Blog</h1>
-                <h6 class="text-white">Check out our lastest news </h6>
-            </div>
-        </div>
-        <div class="row my-3 justify-content-between ">
-            <div class="col-lg-3 wow fadeInLeft " style="background-color: rgba(255,255,255, 0.8);">
-                <img src="./Images/holy.jpg" alt=""class="mt-2 img-fluid" style="width: 100%;">
-                <h2 class=" mt-2 ml"><a href="#">Nike launches a 3000$ Sneaker</a></h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias dolore iste autem amet ea deleniti tempore, consectetur dicta dignissimos sed minus voluptatibus? Aut blanditiis consectetur odit, laboriosam maxime beatae tempore.</p>
-            </div>
-            <div class="col-lg-3 wow fadeIn" style="background-color: rgba(255,255,255, 0.8);">
-                <img src="./Images/hypebeast-collection.jpg" alt="" class="mt-2 img-fluid" style="width: 100%;">
-                <h2 class=" mt-2" style="width: 100%;"><a href="#">Hypebeast Collection 2020</a></h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias dolore iste autem amet ea deleniti tempore, consectetur dicta dignissimos sed minus voluptatibus? Aut blanditiis consectetur odit, laboriosam maxime beatae tempore.</p>
-            </div>
-            <div class="col-lg-3 wow fadeInRight" style="background-color: rgba(255,255,255, 0.8)">
-                <img src="./Images/showdown.jpg" alt="" class="mt-2 img-fluid" style="width: 100%;">
-                <h2 class=" mt-2"><a href="#">Ultraboost vs react
-                    (Ultimate showdown)
-                </a></h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias dolore iste autem amet ea deleniti tempore, consectetur dicta dignissimos sed minus voluptatibus? Aut blanditiis consectetur odit, laboriosam maxime beatae tempore.</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<footer style="background-color: black;">
-    <div class="container" style="background-color: black;" id="home">
-        <div class="row justify-content-between">
-            <div class="logo mt-2">
-                <a href="#home"><img src="./Images/logo-inverted.png" alt="logo-inverted" class="img-fluid"></a>
-                <p class="text-white">Copyright &copy;</p>
-            </div>
-            <div class="links mt-3">
-                <a href="#home" class="pr-2 text-white lr" style="font-size: 24px;">Home</a>
-                <a href="#About" class="pr-2 text-white lr" style="font-size: 24px;">About</a>
-                <a href="#collection" class="pr-2 text-white lr" style="font-size: 24px;">Collection</a>
-                <a href="#blog" class="pr-2 text-white lr" style="font-size: 24px;">Blog</a>
-                <a href="#Contact" class="pr-2 text-white lr" data-toggle="modal" data-target="#myModal" style="font-size: 24px;">Contact</a>
-            </div>
-            <div class="social mt-3">
-                <a href="#"  class="ifbt"><i class="fa fa-facebook-square  pr-2 text-white" style="font-size:36px"></i></a>
-                <a href="#" class="ifbt"><i class="fa fa-instagram pr-2 text-white" style="font-size:36px"></i></a>
-                <a href="#" class="ifbt"><i class="fa fa-twitter-square  pr-2 text-white" style="font-size:36px"></i></a>
-                <a href="#" class="ifbt"><i class="fa fa-snapchat-square pr-2 text-white" style="font-size:36px"></i></a>
-            </div>
-        </div>
-    </div>
-</footer>
-
-<!-- modal working -->
-<div id="myModal" class="modal fade" role="dialog">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-            <h4 class="modal-title">Contact Form</h4>
-            </div>
-            <div class="modal-body">
-                <form method="post">
-                    <h3>Drop Us a Message</h3>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
-                            </div>
-                            <div class="form-group">
-                                <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
-                            </div>
-                            <div class="form-group">
-                                <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
-                            </div>
-                            <div class="form-group">
-                                <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
-                            </div>
-                        </div>
+        <footer style="background-color: black;">
+            <div class="container" style="background-color: black;" id="home">
+                <div class="row justify-content-between">
+                    <div class="logo mt-2">
+                        <a href="#home"><img src="./Images/logo-inverted.png" alt="logo-inverted" class="img-fluid"></a>
+                        <p class="text-white">Copyright &copy;</p>
                     </div>
-                </form>
+                    <div class="links mt-3">
+                        <a href="#home" class="pr-2 text-white lr" style="font-size: 24px;">back to top &uarr;</a>
+                    </div>
+                    <div class="social mt-3">
+                        <a href="#"  class="ifbt"><i class="fa fa-facebook-square  pr-2 text-white" style="font-size:36px"></i></a>
+                        <a href="#" class="ifbt"><i class="fa fa-instagram pr-2 text-white" style="font-size:36px"></i></a>
+                        <a href="#" class="ifbt"><i class="fa fa-twitter-square  pr-2 text-white" style="font-size:36px"></i></a>
+                        <a href="#" class="ifbt"><i class="fa fa-snapchat-square pr-2 text-white" style="font-size:36px"></i></a>
+                    </div>
+                </div>
             </div>
-            <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </footer>
+
+
+            <!-- modal working-->
+            <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h4 class="modal-title">Contact Form</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form method="post">
+                            <h3>Drop Us a Message</h3>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-</div>
+            </div> 
 </body>
 </html>
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
 
 
 
