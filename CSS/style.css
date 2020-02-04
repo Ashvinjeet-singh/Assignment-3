@@ -204,6 +204,7 @@ html
     {min-height: 0!important;}
 }
 
-.owl-item{
+.owl-item
+{
     height: 200px;
 }
