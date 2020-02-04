@@ -4,13 +4,17 @@ body
     margin: 0px;
     padding: 0px;
     overflow-x:hidden;
-    font-size: 12px;
+    font-size: 16px;
     
+}
+html
+{
+    font-size: 16px;
 }
 
 h1
 {
-    font-size: 2em+4px!important;
+    font-size: 2.5rem!important;
 }
 h2{
     font-size:2em!important
@@ -18,22 +22,22 @@ h2{
 
 h3
 {
-    font-size: 2em-4px!important;
+    font-size: 1.75rem!important;
 }
 
 h4
 {
-    font-size: 1em+8px!important;
+    font-size: 1.5rem!important;
 }
 
 h5
 {
-    font-size:1em+4px!important;
+    font-size:1.25rem!important;
 }
 
 h6
 {
-    font-size: 1em!important;
+    font-size: 1rem!important;
 }
 
 
@@ -152,7 +156,7 @@ html
 @media screen and (max-width:768px)
 {
     .cap1{
-        width: 100%;
+        width: 100%!important;
         position: static;
     }
 }
@@ -160,14 +164,14 @@ html
 @media screen and (max-width:768px)
 {
     .cap2{
-        width: 100%;
+        width: 100%!important;
         position: static;
     }
 }
 @media screen and (max-width:768px)
 {
     .cap3{
-        width:20vw!important;
+        width:100%!important;
         position:static;
     }
 }
@@ -178,15 +182,26 @@ html
     justify-content: flex-end;
 }
 
-@media screen and (max-width:730px)
+.owl-item
 {
-    .brandsec
-    {
-        display: none;
-    }
+    margin-right: 1px!important;
 }
 
-.brandpadding
+@media screen and (max-width:778px)
 {
-    padding: 7px;
+    .rt
+    {min-height: 0!important;}
+}
+
+
+.wrapper
+{
+width: 1000px;
+height: auto;
+}
+
+.owli
+{
+    height: 150px;
+    width: 150px;
 }

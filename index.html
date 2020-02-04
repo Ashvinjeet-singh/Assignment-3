@@ -15,10 +15,21 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./CSS/style.css">
     <link rel="stylesheet" href="./CSS/animate.css">
+    <link rel="stylesheet" href="./CSS/owl.carousel.min.css">
+    <link rel="stylesheet" href="./CSS/owl.theme.default.min.css">
     <script src="JS/wow.min.js"></script>
+    
     <script>
         new WOW().init();
     </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>
+        jQuery(window).load(function(){
+            jQuery(".hameid-loader-overlay").fadeOut(5000);
+        });
+    </script>
+
+    
 </head>
 </head>
 <body>
@@ -63,20 +74,20 @@
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner" role="listbox">
                     <div class="carousel-item  er">
-                        <div class=" d-flex align-items-center justify-content-center min-vh-100">
+                        <div class=" d-flex align-items-center justify-content-center min-vh-100 rt">
                             <img src="./Images/close-up.jpg" alt="" style="width: 100%; height:auto;" class="img-fluid">
                         </div>
                         <div class="container wow zoomIn ">
                             <div class="carousel-caption cap1 text-center w-25 ">
-                                <h1 class="display-3 font-weight-bold">A <p
-                                class="text-danger">Moment</p> of Your <p class="text-warning">Style</p>
+                                <h1 class="display-1 font-weight-bold">A <span
+                                class="text-danger display-1 ">Moment</span> of Your <span class="text-warning display-1">Style</span>
                                 </h1>
                             </div>    
                         </div>                        
                     </div>
                 
                     <div class="carousel-item active">
-                        <div class="d-flex align-items-center justify-content-center min-vh-100 ">
+                        <div class="d-flex align-items-center justify-content-center min-vh-100 rt ">
                             <img src="./Images/close-up-of-a-woman-s-sport-shoes-6346.jpg "alt="" style="width: 100%; height:auto;" class="img-fluid yu">
                         </div>
 
@@ -86,7 +97,7 @@
                         </div> 
                     </div>
                 <div class="carousel-item">
-                    <div class="d-flex align-items-center justify-content-center min-vh-100">
+                    <div class="d-flex align-items-center justify-content-center min-vh-100 rt">
                         <img src="./Images/white and yellow ring.jpg" alt="" style="width: 100%; height:auto;" class="img-fluid">
                     </div>
                     <div class="container " >
@@ -256,7 +267,7 @@
         
         <!-- brands Available -->
         <section>
-        <div class="container mt-4 brandsec w-50">
+        <div class="container mt-4 brandsec ">
             <div class="row justify-content-center">
                 <div class="col text-center">
                     <h3 class="display-2 text-danger mt-4 wow zoomIn ">
@@ -265,8 +276,64 @@
                 </div>
             </div>
 
-            <table class="d-flex justify-content-center tableclass mb-3 wow zoomIn" style="width: 100%; border-collapse: collapse; ">
-                <!-- row 1 -->
+            <div class="owl-carousel owl-theme wrapper mt-4">
+                <div class="item owli"><img src="./Images/icons brands/adidas_Originals-removebg-preview.png" alt=""></div>
+                <div class="item owli"><img src="./Images/icons brands/Balenciaga.jpeg" alt=""></div>
+                <div class="item owli"><img src="./Images/icons brands/Supreme.jpeg" alt=""></div>
+                <div class="item owli"><img src="./Images/icons brands/bape.jpeg" alt=""></div>
+                <div class="item owli"><img src="./Images/icons brands/burberry.png" alt=""></div>
+                <div class="item owli"><img src="./Images/icons brands/huf.png" alt=""></div>
+                <div class="item owli"><img src="./Images/icons brands/Palace.jpeg" alt=""></div>
+                <div class="item owli"><img src="./Images/icons brands/versace.jpg" alt=""></div>
+                <div class="item owli"><img src="./Images/icons brands/northface.png" alt=""></div>
+                <div class="item owli"><img src="./Images/icons brands/puma.png" alt=""></div>
+                <div class="item owli"><img src="./Images/icons brands/nike.png" alt=""></div>
+                <div class="item owli"><img src="./Images/icons brands/reebok.png" alt=""></div>
+                <div class="item owli"><img src="./Images/icons brands/phillip plein.png" alt=""></div>
+                <div class="item owli"><img src="./Images/icons brands/Pigalle.jpeg" alt=""></div>
+                <div class="item owli"><img src="./Images/icons brands/dior.jpg" alt=""></div>
+                <div class="item owli"><img src="./Images/icons brands/gucci.jpg" alt=""></div>
+                <div class="item owli"><img src="./Images/icons brands/new balance.png" alt=""></div>
+                <div class="item owli"><img src="./Images/icons brands/prada.png" alt=""></div>
+                <div class="item owli"><img src="./Images/icons brands/jimmy choo.jpg" alt=""></div>
+                <div class="item owli"><img src="./Images/icons brands/vans.jpg" alt=""></div>
+                
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- <table class="d-flex justify-content-center tableclass mb-3 wow zoomIn" style="width: 100%; border-collapse: collapse; ">
+                <!-- row 1 --
                 <tr class="wow fadeIn" >
                     <td  class=".brandpadding"> 
                         <img src="./Images/icons brands/adidas_Originals-removebg-preview.png" alt="" style="width: 150px;" class="mb-2">
@@ -281,7 +348,7 @@
                         <img src="./Images/icons brands/bape.jpeg" alt="" style="width: 150px;" class="mb-2">
                     </td>
                 </tr>
-                <!-- row2 -->
+                <!-- row2 --
                 <tr class="wow fadeIn">
                     <td>
                         <img src="./Images/icons brands/burberry.png" alt="" style="width: 150px;" class="mb-2">
@@ -296,7 +363,7 @@
                         <img src="./Images/icons brands/versace.jpg" alt="" style="width: 150px;" class="mb-2">
                     </td>
                 </tr>
-                <!-- row3 -->
+                <!-- row3 --
                 <tr class="wow fadeIn">
                     <td>
                         <img src="./Images/icons brands/northface.png" alt="" style="width: 150px;" class="mb-2">
@@ -311,7 +378,7 @@
                         <img src="./Images/icons brands/reebok.png" alt="" style="width: 150px;" class="mb-2">
                     </td>
                 </tr>
-                <!-- row4 -->
+                <!-- row4 --
                 <tr class="wow fadeIn">
                     <td>
                         <img src="./Images/icons brands/phillip plein.png" alt="" style="width: 150px;" class="mb-2">
@@ -326,7 +393,7 @@
                         <img src="./Images/icons brands/gucci.jpg" alt="" style="width: 150px;" class="mb-2">
                     </td>
                 </tr>
-                <!-- row5 -->
+                <!-- row5 --
                 <tr class="wow fadeIn">
                     <td>
                         <img src="./Images/icons brands/new balance.png" alt="" style="width: 150px;" class="mb-2">
@@ -341,7 +408,7 @@
                         <img src="./Images/icons brands/vans.jpg" alt="" style="width: 150px;" class="mb-2">
                     </td>
                 </tr>
-            </table> 
+            </table>  -->
         </div>
     </section>
 
@@ -453,18 +520,10 @@
             </div>
         </div>
     </div> 
-            
+
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="./JS/owl.carousel.min.js"></script>
+    <script src="./JS/jquer.js"></script>
+
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
