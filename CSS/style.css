@@ -204,10 +204,6 @@ html
     {min-height: 0!important;}
 }
 
-
-.wrapper
-{
-
-
+.owl-item{
+    height: 200px;
 }
-
