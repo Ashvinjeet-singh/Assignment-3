@@ -182,9 +182,12 @@ html
     justify-content: flex-end;
 }
 
-.owl-item
+@media screen and (min-width:400px)
 {
-    margin-right: 1px!important;
+    .owl-item
+    {
+        margin-right: 2px!important;
+    }
 }
 
 @media screen and (max-width:778px)
@@ -196,7 +199,7 @@ html
 
 .wrapper
 {
-width: 1000px;
+width: 100%;
 height: auto;
 }
 
