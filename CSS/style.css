@@ -186,10 +186,18 @@ html
 {
     .owl-item
     {
-        margin-right: 2px!important;
+        margin-right: 10px!important;
+        margin-left: 10px!important;
+
     }
 }
 
+.owl-item
+{
+    width: 200px!important;
+    /* margin-right: 20px!important;
+    margin-left: 30px!important; */
+}
 @media screen and (max-width:778px)
 {
     .rt
@@ -199,12 +207,7 @@ html
 
 .wrapper
 {
-width: 100%;
-height: auto;
+
+
 }
 
-.owli
-{
-    height: 150px;
-    width: 150px;
-}
