@@ -182,19 +182,19 @@ html
     justify-content: flex-end;
 }
 
-@media screen and (min-width:400px)
+@media screen and (max-width:400px)
 {
     .owl-item
     {
-        margin-right: 10px!important;
-        margin-left: 10px!important;
+        /* margin-right: 10px!important;
+        margin-left: 10px!important; */
 
     }
 }
 
 .owl-item
 {
-    width: 200px!important;
+
     /* margin-right: 20px!important;
     margin-left: 30px!important; */
 }
